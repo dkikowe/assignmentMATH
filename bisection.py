@@ -17,7 +17,7 @@ def bisection_method(f, a, b, tol=1e-6, max_iter=7):
 
 
 def f(x):
-    return x**3 - 4*x - 9
+    return 2.7**x-x**2
 
 root = bisection_method(f, -2, 0)
-print("Root:", root)
+print("root:", root)
